@@ -1,0 +1,115 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0)
+    }
+
+    20% {
+        transform: translateX(5px)
+    }
+
+    30% {
+        transform: translateX(-5px)
+    }
+
+    40% {
+        transform: translateX(5px)
+    }
+
+    50% {
+        transform: translateX(-5px)
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes horizontal-shaking {
+    0% {
+        transform: translateX(0)
+    }
+
+    25% {
+        transform: translateX(5px)
+    }
+
+    50% {
+        transform: translateX(-5px)
+    }
+
+    75% {
+        transform: translateX(5px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+h1 {
+    font-size: 550%;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    animation: fadeIn 5s;
+    color: white;
+    text-shadow: 2px 2px #0f0000;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.answer {
+    animation: fadeIn 5s;
+    font-size: 350%;
+    margin: auto;
+    text-shadow: 2px 2px #0f0000;
+
+}
+
+input[type=text] {
+    height: 50px;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    background: transparent;
+    width: 25%;
+}
+
+.button {
+    height: 55px;
+    padding: 15px 32px;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    width: 100%;
+
+}

@@ -10,4 +10,5 @@ $password = 'Integraftw8484';
     echo "Error: " . $e->getMessage();
     exit; // Exit the script if there's an error
 }
+
 ?>
